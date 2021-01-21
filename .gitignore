@@ -1,0 +1,7 @@
+node_modules
+.DS_Store
+dist
+plugin
+*.local
+src/main/_.js
+src/main/_.js.map

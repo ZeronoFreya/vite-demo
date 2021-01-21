@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "UMD",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "sourceMap": false,
+    "baseUrl": "./",
+    "strict": true,
+    "paths": {
+      "/assets/*": ["src/render/assets/*"],
+      "/components/*": ["src/render/components/*"],
+      "/lib/*": ["src/render/lib/*"],
+      "/utils/*": ["src/render/utils/*"],
+      "/views/*": ["src/render/views/*"],
+      "/store/*": ["src/render/store/*"]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*", "typings/*.d.ts"]
+}
